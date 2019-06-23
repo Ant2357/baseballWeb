@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ant2357@bitbucket.org/ant2357/baseballweb.git"
+    "url": "git+https://github.com/Ant2357/baseballweb.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ant2357/baseballweb#readme",
+  "homepage": "https://github.com/Ant2357/baseballweb",
   "dependencies": {
     "cheerio-httpcli": "^0.7.4"
   }
