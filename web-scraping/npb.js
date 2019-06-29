@@ -1,6 +1,6 @@
 const client = require("cheerio-httpcli");
-const BaseballTeam = require("./struct/baseballTeam");
-const Player = require("./struct/player");
+const BaseballTeam = require("./modules/baseballTeam");
+const Player = require("./modules/player");
 
 module.exports = class Npb {
 
