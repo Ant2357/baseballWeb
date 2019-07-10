@@ -29,24 +29,24 @@
     </div>
 
     <div>
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
+      <ul class="list-inline nav nav-tabs">
+        <li class="list-inline-item nav-item">
           <button @click="isSelect('clBatterTab')" class="nav-link"
           :class="{'active': selectTab === 'clBatterTab'}"
           >セリーグ打者成績</button>
         </li>
-        <li class="nav-item">
+        <li class="list-inline-item nav-item">
           <button @click="isSelect('plBatterTab')" class="nav-link"
           :class="{'active': selectTab === 'plBatterTab'}"
           >パリーグ打者成績</button>
         </li>
 
-        <li class="nav-item">
+        <li class="list-inline-item nav-item">
           <button @click="isSelect('clPitcherTab')" class="nav-link"
           :class="{'active': selectTab === 'clPitcherTab'}"
           >セリーグ投手成績</button>
         </li>
-        <li class="nav-item">
+        <li class="list-inline-item nav-item">
           <button @click="isSelect('plPitcherTab')" class="nav-link"
           :class="{'active': selectTab === 'plPitcherTab'}"
           >パリーグ投手成績</button>
