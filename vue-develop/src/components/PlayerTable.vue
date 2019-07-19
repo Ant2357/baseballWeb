@@ -1,5 +1,5 @@
 <template>
-  <table class="table table-bordered text-center">
+  <table class="table table-responsive table-bordered text-center">
     <thead>
       <tr>
         <th
