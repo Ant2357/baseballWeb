@@ -1,22 +1,24 @@
 <template>
-  <table class="table table-responsive table-bordered text-center">
-    <thead>
-      <tr>
-        <th
-          v-for="key in isBatter ? batterColumns : pitcherColumns"
-          :key="key"
-          :class="key === mainColumn  ? 'mainColumn' : ''" >
-          {{ key }}
-        </th>
-      </tr>
-    </thead>
-    <template v-if="isBatter">
-      <batter-tbody :data="data" />
-    </template>
-    <template v-else>
-      <pitcher-tbody :data="data" />
-    </template>
-  </table>
+  <div class="table-responsive">
+    <table class="table table-bordered text-center">
+      <thead>
+        <tr>
+          <th
+            v-for="key in isBatter ? batterColumns : pitcherColumns"
+            :key="key"
+            :class="key === mainColumn  ? 'mainColumn' : ''" >
+            {{ key }}
+          </th>
+        </tr>
+      </thead>
+      <template v-if="isBatter">
+        <batter-tbody :data="data" />
+      </template>
+      <template v-else>
+        <pitcher-tbody :data="data" />
+      </template>
+    </table>
+  </div>
 </template>
 
 <script>
