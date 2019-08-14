@@ -26,7 +26,7 @@ try {
 
   const pitcherTags = ["ERA", "WIN", "K9", "H", "S"]
   pitcherTags.forEach(tag => {
-    const searchNum = tag === "ERA" || tag == "K9" ? 8 : 10;
+    const searchNum = tag === "ERA" || tag == "K9" ? 6 : 10;
     jsonOutput([jsonPath, "/CL_", tag, ".json"].join(""), npb.playerStandings("CL", true, tag, searchNum));
     jsonOutput([jsonPath, "/PL_", tag, ".json"].join(""), npb.playerStandings("PL", true, tag, searchNum));
   });
