@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-dark bg-dark">
     <span class="navbar-brand">野球の記録を見るやつ</span>
     <ul class="d-block navbar-nav mr-auto list-inline">
       <li class="list-inline-item nav-item">

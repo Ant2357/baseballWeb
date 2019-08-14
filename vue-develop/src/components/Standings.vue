@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="container">
+  <div class="container p-3">
     <div class="row">
       <div class="col-12">
         <h1 class="display-6 mt-3 mb-3 border-underlining">セリーグ順位表</h1>
