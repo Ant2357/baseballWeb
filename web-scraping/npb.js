@@ -83,18 +83,19 @@ module.exports = class Npb {
         return;
       }
 
-      let player = new Player();
-      if (isPitcher) {
-        player.setTableInfoPitcher(web.$(this));
-      } else {
-        player.setTableInfoBatter(web.$(this));
-      }
+      try {
+        let player = new Player();
+        if (isPitcher) {
+          player.setTableInfoPitcher(web.$(this));
+        } else {
+          player.setTableInfoBatter(web.$(this));
+        }
 
-      if (typeof player.team === "undefined") {
+        players.push(player);
+      } catch (error) {
+        console.error(error);
         return;
       }
-
-      players.push(player);
     });
 
     return players;

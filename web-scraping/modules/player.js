@@ -45,7 +45,7 @@ module.exports = class Player {
   }
 
   /**
-   * チームのフルネームをを返す
+   * チームのフルネームを返す
    * @param {String} teamName
    * @returns {String}
    */
@@ -65,7 +65,11 @@ module.exports = class Player {
       "（楽）": "楽天"
     };
 
-    return typeof fullTeamNames[teamName] === "undefined" ? "チーム名不明" : fullTeamNames[teamName];
+    if (typeof fullTeamNames[teamName] === "undefined") {
+      throw "所属チームが不明です。"
+    }
+
+    return fullTeamNames[teamName];
   }
 
   /**
