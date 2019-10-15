@@ -66,7 +66,7 @@ module.exports = class Player {
     };
 
     if (typeof fullTeamNames[teamName] === "undefined") {
-      throw "所属チームが不明です。"
+      throw ["[警告] 所属チームが不明です: ", teamName].join("");
     }
 
     return fullTeamNames[teamName];
