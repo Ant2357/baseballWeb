@@ -9,7 +9,6 @@ const jsonOutput = (url, data) => {
   });
 };
 
-
 const jsonPath = ".././vue-develop/src/assets";
 const npb = new Npb();
 try {

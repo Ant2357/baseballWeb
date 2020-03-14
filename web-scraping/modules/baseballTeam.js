@@ -32,7 +32,7 @@ module.exports = class BaseballTeam {
 
     const rank = tableDom.children().eq(0).text().replace(/[^0-9]/g, "");
     this.rank =  rank === "" ? 9999 : Number(rank);
-    this.name = tableDom.children().eq(1).text();
+    this.name = tableDom.children().eq(1).text().trim();
     this.win = Number(tableDom.children().eq(3).text());
     this.lose = Number(tableDom.children().eq(4).text());
     this.draw = Number(tableDom.children().eq(5).text());
