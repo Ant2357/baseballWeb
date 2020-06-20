@@ -17,13 +17,13 @@ try {
   jsonOutput([jsonPath, "/CP.json"].join(""), npb.standings("CP"));
   jsonOutput([jsonPath, "/OP.json"].join(""), npb.standings("OP"));
 
-  const batterTags = ["AVG", "HR", "RBI", "SB", "OBP", "OPS"]
+  const batterTags = ["AVG", "HR", "RBI", "SB", "OBP", "OPS"];
   batterTags.forEach(tag => {
     jsonOutput([jsonPath, "/CL_", tag, ".json"].join(""), npb.playerStandings("CL", false, tag));
     jsonOutput([jsonPath, "/PL_", tag, ".json"].join(""), npb.playerStandings("PL", false, tag));
   });
 
-  const pitcherTags = ["ERA", "WIN", "K9", "H", "S"]
+  const pitcherTags = ["ERA", "WIN", "K9", "H", "S"];
   pitcherTags.forEach(tag => {
     jsonOutput([jsonPath, "/CL_", tag, ".json"].join(""), npb.playerStandings("CL", true, tag));
     jsonOutput([jsonPath, "/PL_", tag, ".json"].join(""), npb.playerStandings("PL", true, tag));

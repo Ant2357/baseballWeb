@@ -53,21 +53,21 @@ module.exports = class Npb {
    */
   playerStandings(leagueName, isPitcher, tag, searchNum = 10) {
     const playerTagUrls = {
-      "CL": "?series=1",
-      "PL": "?series=2",
-      "AVG": "&type=1",
-      "HR": "&type=9",
-      "RBI": "&type=13",
-      "SB": "&type=20",
-      "OBP": "&type=12",
-      "OPS": "&type=25",
-      "ERA": "&type=1",
-      "WIN": "&type=6",
-      "LOSE": "&type=7",
-      "K": "&type=14",
-      "K9": "&type=15",
-      "H": "&type=23",
-      "S": "&type=8"
+      "CL": "?gameKindId=1",
+      "PL": "?gameKindId=2",
+      "AVG": "&type=avg",
+      "HR": "&type=hr",
+      "RBI": "&type=rbi",
+      "SB": "&type=sb",
+      "OBP": "&type=obp",
+      "OPS": "&type=ops",
+      "ERA": "&type=era",
+      "WIN": "&type=w",
+      "LOSE": "&type=l",
+      "K": "&type=so",
+      "K9": "&type=k9",
+      "H": "&type=hld",
+      "S": "&type=sv"
     };
 
     const url = "https://baseball.yahoo.co.jp/npb/stats/"
@@ -77,12 +77,7 @@ module.exports = class Npb {
 
     const web = client.fetchSync(url);
     let players = [];
-    web.$('.NpbPlSt > tr').each(function (idx) {
-      // tr[0]には見出しが記載されている為Skip(打率/試合/打席)
-      if (idx === 0 || idx > searchNum) {
-        return;
-      }
-
+    web.$('#js-playerTable > tbody > tr').each(function (idx) {
       try {
         let player = new Player();
         if (isPitcher) {

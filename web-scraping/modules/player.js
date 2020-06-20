@@ -9,8 +9,6 @@ module.exports = class Player {
     this.rank = 0;
     // 名前
     this.name = "";
-    // チーム名
-    this.team = "";
     // 打率
     this.avg = 0.0;
     // 本塁打
@@ -45,49 +43,20 @@ module.exports = class Player {
   }
 
   /**
-   * チームのフルネームを返す
-   * @param {String} teamName
-   * @returns {String}
-   */
-  fullTeamName(teamName) {
-    const fullTeamNames = {
-      "（広）": "広島",
-      "（巨）": "巨人",
-      "（ヤ）": "ヤクルト",
-      "（神）": "阪神",
-      "（デ）": "DeNA",
-      "（中）": "中日",
-      "（ソ）": "ソフトバンク",
-      "（日）": "日本ハム",
-      "（西）": "西武",
-      "（オ）": "オリックス",
-      "（ロ）": "ロッテ",
-      "（楽）": "楽天"
-    };
-
-    if (typeof fullTeamNames[teamName] === "undefined") {
-      throw ["[警告] 所属チームが不明です: ", teamName].join("");
-    }
-
-    return fullTeamNames[teamName];
-  }
-
-  /**
    * 打者順位表Tableの値を取り出してメンバ変数に格納
    * @param {DOM} tableDom
    */
   setTableInfoBatter(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
     this.name = tableDom.children().eq(1).text();
-    this.team = this.fullTeamName(tableDom.children().eq(2).text());
-    this.avg = Number(tableDom.children().eq(3).text());
-    this.hr = Number(tableDom.children().eq(10).text());
-    this.rbi = Number(tableDom.children().eq(12).text());
-    this.sb = Number(tableDom.children().eq(19).text());
-    this.obp = Number(tableDom.children().eq(22).text());
-    this.slg = Number(tableDom.children().eq(23).text());
-    this.ops = Number(tableDom.children().eq(24).text());
-    this.risp = Number(tableDom.children().eq(25).text());
+    this.avg = Number(tableDom.children().eq(2).text());
+    this.hr = Number(tableDom.children().eq(9).text());
+    this.rbi = Number(tableDom.children().eq(11).text());
+    this.sb = Number(tableDom.children().eq(18).text());
+    this.obp = Number(tableDom.children().eq(21).text());
+    this.slg = Number(tableDom.children().eq(22).text());
+    this.ops = Number(tableDom.children().eq(23).text());
+    this.risp = Number(tableDom.children().eq(24).text());
   }
 
   /**
@@ -97,13 +66,12 @@ module.exports = class Player {
   setTableInfoPitcher(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
     this.name = tableDom.children().eq(1).text();
-    this.team = this.fullTeamName(tableDom.children().eq(2).text());
-    this.era = Number(tableDom.children().eq(3).text());
-    this.win = Number(tableDom.children().eq(9).text());
-    this.lose = Number(tableDom.children().eq(10).text());
-    this.hold = Number(tableDom.children().eq(11).text());
-    this.save = Number(tableDom.children().eq(13).text());
-    this.k = Number(tableDom.children().eq(18).text());
-    this.k9 = Number(tableDom.children().eq(19).text());
+    this.era = Number(tableDom.children().eq(2).text());
+    this.win = Number(tableDom.children().eq(8).text());
+    this.lose = Number(tableDom.children().eq(9).text());
+    this.hold = Number(tableDom.children().eq(10).text());
+    this.save = Number(tableDom.children().eq(12).text());
+    this.k = Number(tableDom.children().eq(17).text());
+    this.k9 = Number(tableDom.children().eq(18).text());
   }
 }

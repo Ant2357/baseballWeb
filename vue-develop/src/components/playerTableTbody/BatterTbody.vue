@@ -6,7 +6,6 @@
     >
       <td>{{ v.rank }}位</td>
       <td>{{ v.name }}</td>
-      <td>{{ v.team }}</td>
       <td>{{ v.avg }}</td>
       <td>{{ v.hr }}</td>
       <td>{{ v.rbi }}</td>
