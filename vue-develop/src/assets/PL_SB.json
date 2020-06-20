@@ -1,7 +1,7 @@
 [
   {
     "rank": 1,
-    "name": "\n        \n          荻野 貴司\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          荻野 貴司\n          (ロ)\n        \n      ",
     "avg": 0.333,
     "hr": 0,
     "rbi": 0,
@@ -20,7 +20,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          栗原 陵矢\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          栗原 陵矢\n          (ソ)\n        \n      ",
     "avg": 0.3,
     "hr": 0,
     "rbi": 1,
@@ -39,7 +39,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          島内 宏明\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          島内 宏明\n          (楽)\n        \n      ",
     "avg": 0.286,
     "hr": 0,
     "rbi": 2,
@@ -58,7 +58,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          柳田 悠岐\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          柳田 悠岐\n          (ソ)\n        \n      ",
     "avg": 0.25,
     "hr": 1,
     "rbi": 2,
@@ -77,7 +77,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          源田 壮亮\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          源田 壮亮\n          (西)\n        \n      ",
     "avg": 0.143,
     "hr": 0,
     "rbi": 0,
@@ -96,7 +96,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          西川 遥輝\n          (日)\n        \n      ",
+    "nameAndTeamName": "\n        \n          西川 遥輝\n          (日)\n        \n      ",
     "avg": 0.143,
     "hr": 0,
     "rbi": 0,
@@ -115,7 +115,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          木村 文紀\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          木村 文紀\n          (西)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -134,7 +134,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          和田 康士朗\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          和田 康士朗\n          (ロ)\n        \n      ",
     "avg": null,
     "hr": 0,
     "rbi": 0,
@@ -153,7 +153,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          山﨑 幹史\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          山﨑 幹史\n          (楽)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -172,7 +172,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          小深田 大翔\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          小深田 大翔\n          (楽)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,

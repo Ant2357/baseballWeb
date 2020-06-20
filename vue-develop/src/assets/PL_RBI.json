@@ -1,7 +1,7 @@
 [
   {
     "rank": 1,
-    "name": "\n        \n          浅村 栄斗\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          浅村 栄斗\n          (楽)\n        \n      ",
     "avg": 0.444,
     "hr": 0,
     "rbi": 2,
@@ -20,7 +20,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          レアード\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          レアード\n          (ロ)\n        \n      ",
     "avg": 0.333,
     "hr": 1,
     "rbi": 2,
@@ -39,7 +39,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          中田 翔\n          (日)\n        \n      ",
+    "nameAndTeamName": "\n        \n          中田 翔\n          (日)\n        \n      ",
     "avg": 0.286,
     "hr": 0,
     "rbi": 2,
@@ -58,7 +58,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          島内 宏明\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          島内 宏明\n          (楽)\n        \n      ",
     "avg": 0.286,
     "hr": 0,
     "rbi": 2,
@@ -77,7 +77,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          辰己 涼介\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          辰己 涼介\n          (楽)\n        \n      ",
     "avg": 0.286,
     "hr": 0,
     "rbi": 2,
@@ -96,7 +96,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          柳田 悠岐\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          柳田 悠岐\n          (ソ)\n        \n      ",
     "avg": 0.25,
     "hr": 1,
     "rbi": 2,
@@ -115,7 +115,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          太田 光\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          太田 光\n          (楽)\n        \n      ",
     "avg": 0.25,
     "hr": 0,
     "rbi": 2,
@@ -134,7 +134,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          外崎 修汰\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          外崎 修汰\n          (西)\n        \n      ",
     "avg": 0.2,
     "hr": 1,
     "rbi": 2,
@@ -153,7 +153,7 @@
   },
   {
     "rank": 1,
-    "name": "\n        \n          鈴木 大地\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          鈴木 大地\n          (楽)\n        \n      ",
     "avg": 0.143,
     "hr": 0,
     "rbi": 2,
@@ -172,7 +172,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          栗山 巧\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          栗山 巧\n          (西)\n        \n      ",
     "avg": 0.5,
     "hr": 0,
     "rbi": 1,
@@ -191,7 +191,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          明石 健志\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          明石 健志\n          (ソ)\n        \n      ",
     "avg": 0.4,
     "hr": 1,
     "rbi": 1,
@@ -210,7 +210,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          栗原 陵矢\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          栗原 陵矢\n          (ソ)\n        \n      ",
     "avg": 0.3,
     "hr": 0,
     "rbi": 1,
@@ -229,7 +229,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          山川 穂高\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          山川 穂高\n          (西)\n        \n      ",
     "avg": 0.25,
     "hr": 0,
     "rbi": 1,
@@ -248,7 +248,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          中村 奨吾\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          中村 奨吾\n          (ロ)\n        \n      ",
     "avg": 0.2,
     "hr": 0,
     "rbi": 1,
@@ -267,7 +267,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          中川 圭太\n          (オ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          中川 圭太\n          (オ)\n        \n      ",
     "avg": 0.143,
     "hr": 0,
     "rbi": 1,
@@ -286,7 +286,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          Ｔ－岡田\n          (オ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          Ｔ－岡田\n          (オ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 1,

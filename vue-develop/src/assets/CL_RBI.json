@@ -1,7 +1,7 @@
 [
   {
     "rank": 1,
-    "name": "\n        \n          鈴木 誠也\n          (広)\n        \n      ",
+    "nameAndTeamName": "\n        \n          鈴木 誠也\n          (広)\n        \n      ",
     "avg": 0.5,
     "hr": 2,
     "rbi": 5,
@@ -20,7 +20,7 @@
   },
   {
     "rank": 2,
-    "name": "\n        \n          山田 哲人\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          山田 哲人\n          (ヤ)\n        \n      ",
     "avg": 0.375,
     "hr": 2,
     "rbi": 4,
@@ -39,7 +39,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          大瀬良 大地\n          (広)\n        \n      ",
+    "nameAndTeamName": "\n        \n          大瀬良 大地\n          (広)\n        \n      ",
     "avg": 0.667,
     "hr": 1,
     "rbi": 3,
@@ -58,7 +58,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          パーラ\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          パーラ\n          (巨)\n        \n      ",
     "avg": 0.5,
     "hr": 1,
     "rbi": 3,
@@ -77,7 +77,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          村上 宗隆\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          村上 宗隆\n          (ヤ)\n        \n      ",
     "avg": 0.444,
     "hr": 1,
     "rbi": 3,
@@ -96,7 +96,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          阿部 寿樹\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          阿部 寿樹\n          (中)\n        \n      ",
     "avg": 0.333,
     "hr": 0,
     "rbi": 3,
@@ -115,7 +115,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          ソト\n          (デ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ソト\n          (デ)\n        \n      ",
     "avg": 0.25,
     "hr": 1,
     "rbi": 3,
@@ -134,7 +134,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          西 勇輝\n          (神)\n        \n      ",
+    "nameAndTeamName": "\n        \n          西 勇輝\n          (神)\n        \n      ",
     "avg": 1,
     "hr": 1,
     "rbi": 2,
@@ -153,7 +153,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          長野 久義\n          (広)\n        \n      ",
+    "nameAndTeamName": "\n        \n          長野 久義\n          (広)\n        \n      ",
     "avg": 1,
     "hr": 0,
     "rbi": 2,
@@ -172,7 +172,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          ピレラ\n          (広)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ピレラ\n          (広)\n        \n      ",
     "avg": 0.4,
     "hr": 1,
     "rbi": 2,
@@ -191,7 +191,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          エスコバー\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          エスコバー\n          (ヤ)\n        \n      ",
     "avg": 0.375,
     "hr": 0,
     "rbi": 2,
@@ -210,7 +210,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          ビシエド\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ビシエド\n          (中)\n        \n      ",
     "avg": 0.333,
     "hr": 1,
     "rbi": 2,
@@ -229,7 +229,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          京田 陽太\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          京田 陽太\n          (中)\n        \n      ",
     "avg": 0.333,
     "hr": 0,
     "rbi": 2,
@@ -248,7 +248,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          岡本 和真\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          岡本 和真\n          (巨)\n        \n      ",
     "avg": 0.333,
     "hr": 0,
     "rbi": 2,
@@ -267,7 +267,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          西川 龍馬\n          (広)\n        \n      ",
+    "nameAndTeamName": "\n        \n          西川 龍馬\n          (広)\n        \n      ",
     "avg": 0.286,
     "hr": 0,
     "rbi": 2,
@@ -286,7 +286,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          青木 宣親\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          青木 宣親\n          (ヤ)\n        \n      ",
     "avg": 0.25,
     "hr": 1,
     "rbi": 2,
@@ -305,7 +305,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          陽 岱鋼\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          陽 岱鋼\n          (巨)\n        \n      ",
     "avg": 0.25,
     "hr": 0,
     "rbi": 2,
@@ -324,7 +324,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          大島 洋平\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          大島 洋平\n          (中)\n        \n      ",
     "avg": 0.2,
     "hr": 0,
     "rbi": 2,
@@ -343,7 +343,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          吉川 尚輝\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          吉川 尚輝\n          (巨)\n        \n      ",
     "avg": 0.143,
     "hr": 1,
     "rbi": 2,
@@ -362,7 +362,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          坂口 智隆\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          坂口 智隆\n          (ヤ)\n        \n      ",
     "avg": 0.571,
     "hr": 0,
     "rbi": 1,
@@ -381,7 +381,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          高橋 周平\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          高橋 周平\n          (中)\n        \n      ",
     "avg": 0.556,
     "hr": 0,
     "rbi": 1,
@@ -400,7 +400,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          坂本 勇人\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          坂本 勇人\n          (巨)\n        \n      ",
     "avg": 0.5,
     "hr": 0,
     "rbi": 1,
@@ -419,7 +419,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          宮﨑 敏郎\n          (デ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          宮﨑 敏郎\n          (デ)\n        \n      ",
     "avg": 0.429,
     "hr": 1,
     "rbi": 1,
@@ -438,7 +438,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          中島 宏之\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          中島 宏之\n          (巨)\n        \n      ",
     "avg": 0.4,
     "hr": 0,
     "rbi": 1,
@@ -457,7 +457,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          伊藤 光\n          (デ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          伊藤 光\n          (デ)\n        \n      ",
     "avg": 0.4,
     "hr": 0,
     "rbi": 1,
@@ -476,7 +476,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          原口 文仁\n          (神)\n        \n      ",
+    "nameAndTeamName": "\n        \n          原口 文仁\n          (神)\n        \n      ",
     "avg": 0.25,
     "hr": 1,
     "rbi": 1,
@@ -495,7 +495,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          塩見 泰隆\n          (ヤ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          塩見 泰隆\n          (ヤ)\n        \n      ",
     "avg": 0.222,
     "hr": 1,
     "rbi": 1,
@@ -514,7 +514,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          ロペス\n          (デ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ロペス\n          (デ)\n        \n      ",
     "avg": 0.111,
     "hr": 1,
     "rbi": 1,
@@ -533,7 +533,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          炭谷 銀仁朗\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          炭谷 銀仁朗\n          (巨)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 1,
@@ -552,7 +552,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          丸 佳浩\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          丸 佳浩\n          (巨)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 1,
@@ -571,7 +571,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          重信 慎之介\n          (巨)\n        \n      ",
+    "nameAndTeamName": "\n        \n          重信 慎之介\n          (巨)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 1,
@@ -590,7 +590,7 @@
   },
   {
     "rank": 20,
-    "name": "\n        \n          堂上 直倫\n          (中)\n        \n      ",
+    "nameAndTeamName": "\n        \n          堂上 直倫\n          (中)\n        \n      ",
     "avg": null,
     "hr": 0,
     "rbi": 1,

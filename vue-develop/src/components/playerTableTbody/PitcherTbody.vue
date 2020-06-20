@@ -2,10 +2,10 @@
   <tbody>
     <tr
       v-for="v in data"
-      :key="v.name"
+      :key="v.nameAndTeamName"
     >
       <td>{{ v.rank }}位</td>
-      <td>{{ v.name }}</td>
+      <td>{{ v.nameAndTeamName }}</td>
       <td>{{ v.era }}</td>
       <td>{{ v.win }}</td>
       <td>{{ v.lose }}</td>

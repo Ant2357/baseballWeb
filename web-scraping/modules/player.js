@@ -8,7 +8,7 @@ module.exports = class Player {
     // 順位
     this.rank = 0;
     // 名前
-    this.name = "";
+    this.nameAndTeamName = "";
     // 打率
     this.avg = 0.0;
     // 本塁打
@@ -48,7 +48,7 @@ module.exports = class Player {
    */
   setTableInfoBatter(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
-    this.name = tableDom.children().eq(1).text();
+    this.nameAndTeamName = tableDom.children().eq(1).text();
     this.avg = Number(tableDom.children().eq(2).text());
     this.hr = Number(tableDom.children().eq(9).text());
     this.rbi = Number(tableDom.children().eq(11).text());
@@ -65,7 +65,7 @@ module.exports = class Player {
    */
   setTableInfoPitcher(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
-    this.name = tableDom.children().eq(1).text();
+    this.nameAndTeamName = tableDom.children().eq(1).text();
     this.era = Number(tableDom.children().eq(2).text());
     this.win = Number(tableDom.children().eq(8).text());
     this.lose = Number(tableDom.children().eq(9).text());

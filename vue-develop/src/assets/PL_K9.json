@@ -1,7 +1,7 @@
 [
   {
     "rank": 1,
-    "name": "\n        \n          益田 直也\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          益田 直也\n          (ロ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -20,7 +20,7 @@
   },
   {
     "rank": 2,
-    "name": "\n        \n          加藤 貴之\n          (日)\n        \n      ",
+    "nameAndTeamName": "\n        \n          加藤 貴之\n          (日)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -39,7 +39,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          石川 歩\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          石川 歩\n          (ロ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -58,7 +58,7 @@
   },
   {
     "rank": 3,
-    "name": "\n        \n          有原 航平\n          (日)\n        \n      ",
+    "nameAndTeamName": "\n        \n          有原 航平\n          (日)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -77,7 +77,7 @@
   },
   {
     "rank": 5,
-    "name": "\n        \n          和田 毅\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          和田 毅\n          (ソ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -96,7 +96,7 @@
   },
   {
     "rank": 6,
-    "name": "\n        \n          東浜 巨\n          (ソ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          東浜 巨\n          (ソ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -115,7 +115,7 @@
   },
   {
     "rank": 6,
-    "name": "\n        \n          ジャクソン\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ジャクソン\n          (ロ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -134,7 +134,7 @@
   },
   {
     "rank": 8,
-    "name": "\n        \n          種市 篤暉\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          種市 篤暉\n          (ロ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -153,7 +153,7 @@
   },
   {
     "rank": 9,
-    "name": "\n        \n          松井 裕樹\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          松井 裕樹\n          (楽)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -172,7 +172,7 @@
   },
   {
     "rank": 10,
-    "name": "\n        \n          山岡 泰輔\n          (オ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          山岡 泰輔\n          (オ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -191,7 +191,7 @@
   },
   {
     "rank": 11,
-    "name": "\n        \n          松本 航\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          松本 航\n          (西)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -210,7 +210,7 @@
   },
   {
     "rank": 12,
-    "name": "\n        \n          田嶋 大樹\n          (オ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          田嶋 大樹\n          (オ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -229,7 +229,7 @@
   },
   {
     "rank": 13,
-    "name": "\n        \n          玉井 大翔\n          (日)\n        \n      ",
+    "nameAndTeamName": "\n        \n          玉井 大翔\n          (日)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -248,7 +248,7 @@
   },
   {
     "rank": 13,
-    "name": "\n        \n          ハーマン\n          (ロ)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ハーマン\n          (ロ)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -267,7 +267,7 @@
   },
   {
     "rank": 13,
-    "name": "\n        \n          牧田 和久\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          牧田 和久\n          (楽)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -286,7 +286,7 @@
   },
   {
     "rank": 16,
-    "name": "\n        \n          則本 昂大\n          (楽)\n        \n      ",
+    "nameAndTeamName": "\n        \n          則本 昂大\n          (楽)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
@@ -305,7 +305,7 @@
   },
   {
     "rank": 17,
-    "name": "\n        \n          ニール\n          (西)\n        \n      ",
+    "nameAndTeamName": "\n        \n          ニール\n          (西)\n        \n      ",
     "avg": 0,
     "hr": 0,
     "rbi": 0,
