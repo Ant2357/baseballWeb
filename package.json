@@ -14,6 +14,6 @@
   "license": "ISC",
   "homepage": "https://github.com/Ant2357/baseballweb",
   "dependencies": {
-    "cheerio-httpcli": "^0.7.4"
+    "cheerio-httpcli": "^0.8.1"
   }
 }
