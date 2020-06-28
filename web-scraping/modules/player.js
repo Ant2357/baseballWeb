@@ -43,12 +43,26 @@ module.exports = class Player {
   }
 
   /**
+   * 名前(チーム名)の余分な改行、空白を除去(Webスクレイピング先のノイズ対策)
+   * 
+   * 例:
+   * "\n          坂口 智隆\n          (ヤ)\n" => "坂口 智隆(ヤ)"
+   * @param {String} str 
+   */
+  fixNameAndTeamNameText(str) {
+    return str
+      .replace(/\n/g, "")
+      .replace(/          /g, "")
+      .trim();
+  }
+
+  /**
    * 打者順位表Tableの値を取り出してメンバ変数に格納
    * @param {DOM} tableDom
    */
   setTableInfoBatter(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
-    this.nameAndTeamName = tableDom.children().eq(1).text();
+    this.nameAndTeamName = this.fixNameAndTeamNameText(tableDom.children().eq(1).text());
     this.avg = Number(tableDom.children().eq(2).text());
     this.hr = Number(tableDom.children().eq(9).text());
     this.rbi = Number(tableDom.children().eq(11).text());
@@ -65,7 +79,7 @@ module.exports = class Player {
    */
   setTableInfoPitcher(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
-    this.nameAndTeamName = tableDom.children().eq(1).text();
+    this.nameAndTeamName = this.fixNameAndTeamNameText(tableDom.children().eq(1).text());
     this.era = Number(tableDom.children().eq(2).text());
     this.win = Number(tableDom.children().eq(8).text());
     this.lose = Number(tableDom.children().eq(9).text());
