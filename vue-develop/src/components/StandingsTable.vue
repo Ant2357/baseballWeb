@@ -24,6 +24,7 @@
       >
         <td>{{ team.rank }}位</td>
         <td class="text-nowrap">{{ team.name }}</td>
+        <td>{{ team.playGameCount }}</td>
         <td>{{ team.win }}</td>
         <td>{{ team.lose }}</td>
         <td>{{ team.draw }}</td>
@@ -49,6 +50,7 @@ export default {
     const labelInfo = {
       "rank": "順位",
       "name": "球団名",
+      "playGameCount": "試合数",
       "win": "勝利数",
       "lose": "敗北数",
       "draw": "引き分け",

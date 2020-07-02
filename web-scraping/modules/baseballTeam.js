@@ -7,6 +7,7 @@ module.exports = class BaseballTeam {
   constructor() {
     this.rank = 0;
     this.name = "";
+    this.playGameCount = 0;
     this.win = 0;
     this.lose = 0;
     this.draw = 0;
@@ -31,8 +32,9 @@ module.exports = class BaseballTeam {
     const isSkip = leagueName === "CL" || leagueName === "PL" || leagueName == "CP";
 
     const rank = tableDom.children().eq(0).text().replace(/[^0-9]/g, "");
-    this.rank =  rank === "" ? 9999 : Number(rank);
+    this.rank = Number(rank);
     this.name = tableDom.children().eq(1).text().trim();
+    this.playGameCount = Number(tableDom.children().eq(2).text());
     this.win = Number(tableDom.children().eq(3).text());
     this.lose = Number(tableDom.children().eq(4).text());
     this.draw = Number(tableDom.children().eq(5).text());

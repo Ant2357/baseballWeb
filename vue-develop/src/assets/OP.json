@@ -2,6 +2,7 @@
   {
     "rank": 1,
     "name": "西武",
+    "playGameCount": 9,
     "win": 6,
     "lose": 2,
     "draw": 1,
@@ -17,6 +18,7 @@
   {
     "rank": 2,
     "name": "ソフトバンク",
+    "playGameCount": 12,
     "win": 8,
     "lose": 3,
     "draw": 1,
@@ -32,6 +34,7 @@
   {
     "rank": 3,
     "name": "阪神",
+    "playGameCount": 12,
     "win": 7,
     "lose": 3,
     "draw": 2,
@@ -47,6 +50,7 @@
   {
     "rank": 4,
     "name": "楽天",
+    "playGameCount": 14,
     "win": 9,
     "lose": 4,
     "draw": 1,
@@ -62,6 +66,7 @@
   {
     "rank": 5,
     "name": "ＤｅＮＡ",
+    "playGameCount": 13,
     "win": 8,
     "lose": 5,
     "draw": 0,
@@ -77,6 +82,7 @@
   {
     "rank": 6,
     "name": "広島",
+    "playGameCount": 12,
     "win": 5,
     "lose": 5,
     "draw": 2,
@@ -92,6 +98,7 @@
   {
     "rank": 6,
     "name": "日本ハム",
+    "playGameCount": 14,
     "win": 6,
     "lose": 6,
     "draw": 2,
@@ -107,6 +114,7 @@
   {
     "rank": 8,
     "name": "中日",
+    "playGameCount": 13,
     "win": 6,
     "lose": 7,
     "draw": 0,
@@ -122,6 +130,7 @@
   {
     "rank": 9,
     "name": "ヤクルト",
+    "playGameCount": 13,
     "win": 4,
     "lose": 8,
     "draw": 1,
@@ -137,6 +146,7 @@
   {
     "rank": 10,
     "name": "ロッテ",
+    "playGameCount": 9,
     "win": 2,
     "lose": 5,
     "draw": 2,
@@ -152,6 +162,7 @@
   {
     "rank": 11,
     "name": "オリックス",
+    "playGameCount": 13,
     "win": 3,
     "lose": 8,
     "draw": 2,
@@ -167,6 +178,7 @@
   {
     "rank": 12,
     "name": "巨人",
+    "playGameCount": 16,
     "win": 2,
     "lose": 10,
     "draw": 4,
