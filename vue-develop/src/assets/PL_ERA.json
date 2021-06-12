@@ -39,6 +39,25 @@
   },
   {
     "rank": 3,
+    "nameAndTeamName": "今井 達也(西)",
+    "avg": 0,
+    "hr": 0,
+    "rbi": 0,
+    "sb": 0,
+    "obp": 0,
+    "slg": 0,
+    "ops": 0,
+    "risp": 0,
+    "era": 2.53,
+    "win": 4,
+    "lose": 2,
+    "k": 57,
+    "k9": 8.02,
+    "hold": 0,
+    "save": 0
+  },
+  {
+    "rank": 4,
     "nameAndTeamName": "石川 柊太(ソ)",
     "avg": 0,
     "hr": 0,
@@ -57,7 +76,7 @@
     "save": 0
   },
   {
-    "rank": 4,
+    "rank": 5,
     "nameAndTeamName": "上沢 直之(日)",
     "avg": 0,
     "hr": 0,
@@ -76,7 +95,7 @@
     "save": 0
   },
   {
-    "rank": 5,
+    "rank": 6,
     "nameAndTeamName": "早川 隆久(楽)",
     "avg": 0,
     "hr": 0,
@@ -95,7 +114,7 @@
     "save": 0
   },
   {
-    "rank": 6,
+    "rank": 7,
     "nameAndTeamName": "則本 昂大(楽)",
     "avg": 0,
     "hr": 0,
@@ -110,25 +129,6 @@
     "lose": 3,
     "k": 74,
     "k9": 9.7,
-    "hold": 0,
-    "save": 0
-  },
-  {
-    "rank": 7,
-    "nameAndTeamName": "加藤 貴之(日)",
-    "avg": 0,
-    "hr": 0,
-    "rbi": 0,
-    "sb": 0,
-    "obp": 0,
-    "slg": 0,
-    "ops": 0,
-    "risp": 0,
-    "era": 3.64,
-    "win": 3,
-    "lose": 4,
-    "k": 46,
-    "k9": 6.98,
     "hold": 0,
     "save": 0
   },
@@ -200,11 +200,11 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 4.76,
+    "era": 6.02,
     "win": 3,
-    "lose": 3,
-    "k": 51,
-    "k9": 7.36,
+    "lose": 4,
+    "k": 52,
+    "k9": 7.27,
     "hold": 0,
     "save": 0
   }
