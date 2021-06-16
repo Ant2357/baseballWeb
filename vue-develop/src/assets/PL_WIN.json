@@ -10,11 +10,11 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 3.15,
+    "era": 3.3,
     "win": 7,
     "lose": 2,
-    "k": 67,
-    "k9": 8.78,
+    "k": 73,
+    "k9": 8.92,
     "hold": 0,
     "save": 0
   },
@@ -105,11 +105,11 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 2.88,
+    "era": 2.98,
     "win": 5,
     "lose": 3,
-    "k": 47,
-    "k9": 7.51,
+    "k": 48,
+    "k9": 7.16,
     "hold": 0,
     "save": 0
   },
@@ -200,12 +200,12 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 1.17,
+    "era": 1.13,
     "win": 4,
     "lose": 0,
-    "k": 12,
-    "k9": 4.7,
-    "hold": 4,
+    "k": 13,
+    "k9": 4.88,
+    "hold": 5,
     "save": 1
   },
   {
@@ -248,6 +248,25 @@
   },
   {
     "rank": 11,
+    "nameAndTeamName": "伊藤 大海(日)",
+    "avg": 0,
+    "hr": 0,
+    "rbi": 0,
+    "sb": 0,
+    "obp": 0,
+    "slg": 0,
+    "ops": 0,
+    "risp": 0,
+    "era": 2.77,
+    "win": 4,
+    "lose": 4,
+    "k": 72,
+    "k9": 10.51,
+    "hold": 0,
+    "save": 0
+  },
+  {
+    "rank": 11,
     "nameAndTeamName": "岩下 大輝(ロ)",
     "avg": 0,
     "hr": 0,
@@ -276,16 +295,16 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 4.06,
+    "era": 4.65,
     "win": 4,
-    "lose": 3,
-    "k": 54,
-    "k9": 8.43,
+    "lose": 4,
+    "k": 61,
+    "k9": 8.85,
     "hold": 0,
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "武田 翔太(ソ)",
     "avg": 0,
     "hr": 0,
@@ -304,7 +323,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "池田 隆英(日)",
     "avg": 0,
     "hr": 0,
@@ -323,7 +342,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "石川 柊太(ソ)",
     "avg": 0,
     "hr": 0,
@@ -342,26 +361,7 @@
     "save": 0
   },
   {
-    "rank": 16,
-    "nameAndTeamName": "伊藤 大海(日)",
-    "avg": 0,
-    "hr": 0,
-    "rbi": 0,
-    "sb": 0,
-    "obp": 0,
-    "slg": 0,
-    "ops": 0,
-    "risp": 0,
-    "era": 3.07,
-    "win": 3,
-    "lose": 4,
-    "k": 64,
-    "k9": 10.35,
-    "hold": 0,
-    "save": 0
-  },
-  {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "二木 康太(ロ)",
     "avg": 0,
     "hr": 0,
@@ -380,7 +380,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "加藤 貴之(日)",
     "avg": 0,
     "hr": 0,
@@ -399,7 +399,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "山岡 泰輔(オ)",
     "avg": 0,
     "hr": 0,
@@ -418,7 +418,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "岸 孝之(楽)",
     "avg": 0,
     "hr": 0,
@@ -437,7 +437,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "田嶋 大樹(オ)",
     "avg": 0,
     "hr": 0,
@@ -456,7 +456,26 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
+    "nameAndTeamName": "小島 和哉(ロ)",
+    "avg": 0,
+    "hr": 0,
+    "rbi": 0,
+    "sb": 0,
+    "obp": 0,
+    "slg": 0,
+    "ops": 0,
+    "risp": 0,
+    "era": 4.53,
+    "win": 3,
+    "lose": 2,
+    "k": 43,
+    "k9": 6.71,
+    "hold": 0,
+    "save": 0
+  },
+  {
+    "rank": 17,
     "nameAndTeamName": "平井 克典(西)",
     "avg": 0,
     "hr": 0,
@@ -475,7 +494,7 @@
     "save": 0
   },
   {
-    "rank": 16,
+    "rank": 17,
     "nameAndTeamName": "美馬 学(ロ)",
     "avg": 0,
     "hr": 0,
@@ -494,7 +513,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "安樂 智大(楽)",
     "avg": 0,
     "hr": 0,
@@ -504,16 +523,16 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 1.57,
+    "era": 1.5,
     "win": 2,
     "lose": 0,
-    "k": 25,
-    "k9": 9.78,
+    "k": 26,
+    "k9": 9.75,
     "hold": 8,
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "堀 瑞輝(日)",
     "avg": 0,
     "hr": 0,
@@ -532,7 +551,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "岩嵜 翔(ソ)",
     "avg": 0,
     "hr": 0,
@@ -551,7 +570,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "田中 将大(楽)",
     "avg": 0,
     "hr": 0,
@@ -570,7 +589,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "漆原 大晟(オ)",
     "avg": 0,
     "hr": 0,
@@ -589,7 +608,7 @@
     "save": 2
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "山﨑 福也(オ)",
     "avg": 0,
     "hr": 0,
@@ -608,7 +627,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "増井 浩俊(オ)",
     "avg": 0,
     "hr": 0,
@@ -618,35 +637,16 @@
     "slg": 0,
     "ops": 0,
     "risp": 0,
-    "era": 4.07,
+    "era": 3.94,
     "win": 2,
     "lose": 4,
-    "k": 27,
-    "k9": 5.79,
+    "k": 33,
+    "k9": 6.19,
     "hold": 0,
     "save": 0
   },
   {
-    "rank": 27,
-    "nameAndTeamName": "小島 和哉(ロ)",
-    "avg": 0,
-    "hr": 0,
-    "rbi": 0,
-    "sb": 0,
-    "obp": 0,
-    "slg": 0,
-    "ops": 0,
-    "risp": 0,
-    "era": 4.41,
-    "win": 2,
-    "lose": 2,
-    "k": 37,
-    "k9": 6.53,
-    "hold": 0,
-    "save": 0
-  },
-  {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "石川 歩(ロ)",
     "avg": 0,
     "hr": 0,
@@ -665,7 +665,7 @@
     "save": 0
   },
   {
-    "rank": 27,
+    "rank": 28,
     "nameAndTeamName": "竹安 大知(オ)",
     "avg": 0,
     "hr": 0,
