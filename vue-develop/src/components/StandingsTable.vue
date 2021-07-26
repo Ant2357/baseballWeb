@@ -6,7 +6,7 @@
           v-for="(key, index) in columns"
           :key="key"
           @click="sortBy(key)"
-          class="vt-th"
+          class="vt-th text-nowrap"
           :class="{ active: sortKey == key }"
         >
           {{ japaneseColumns[index] }}
@@ -29,6 +29,7 @@
         <td>{{ team.lose }}</td>
         <td>{{ team.draw }}</td>
         <td>{{ team.pct }}</td>
+        <td>{{ team.pythagoreanExpectation }}</td>
         <td>{{ team.gameDiff }}</td>
         <td>{{ team.run }}</td>
         <td>{{ team.ra }}</td>
@@ -55,6 +56,7 @@ export default {
       "lose": "敗北数",
       "draw": "引き分け",
       "pct": "勝率",
+      "pythagoreanExpectation": "ピタゴラス勝率",
       "gameDiff": "勝差",
       "run": "得点",
       "ra": "失点",

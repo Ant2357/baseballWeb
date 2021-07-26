@@ -19,6 +19,10 @@ module.exports = class BaseballTeam {
     this.sb = 0;
     this.avg = 0;
     this.era = 0.0;
+
+    // Webスクレイピング先に無い独自値
+    // ピタゴラス勝率
+    this.pythagoreanExpectation = 0.0;
   }
 
   /**
@@ -31,6 +35,9 @@ module.exports = class BaseballTeam {
     // オープン戦、交流戦だけ残試合数表記がないという奇妙な仕様の為調整
     const isSkip = leagueName === "CL" || leagueName === "PL" || leagueName == "CP";
 
+    const run = Number(tableDom.children().eq(8 + isSkip).text());
+    const ra = Number(tableDom.children().eq(9 + isSkip).text());
+
     const rank = tableDom.children().eq(0).text().replace(/[^0-9]/g, "");
     this.rank = Number(rank);
     this.name = tableDom.children().eq(1).text().trim();
@@ -40,11 +47,16 @@ module.exports = class BaseballTeam {
     this.draw = Number(tableDom.children().eq(5).text());
     this.pct = Number(tableDom.children().eq(6).text());
     this.gameDiff = tableDom.children().eq(7).text();
-    this.run = Number(tableDom.children().eq(8 + isSkip).text());
-    this.ra = Number(tableDom.children().eq(9 + isSkip).text());
+    this.run = run;
+    this.ra = ra;
     this.hr = Number(tableDom.children().eq(10 + isSkip).text());
     this.sb = Number(tableDom.children().eq(11 + isSkip).text());
     this.avg = Number(tableDom.children().eq(12 + isSkip).text());
     this.era = Number(tableDom.children().eq(13 + isSkip).text());
+
+    // Webスクレイピング先に無い独自値
+    // ピタゴラス勝率
+    const pythagoreanExpectation = (run * run) / ((run * run) + (ra * ra));
+    this.pythagoreanExpectation = Math.round(pythagoreanExpectation * 1000) / 1000;
   }
 }

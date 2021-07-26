@@ -13,7 +13,8 @@
     "hr": 82,
     "sb": 71,
     "avg": 0.251,
-    "era": 3.32
+    "era": 3.32,
+    "pythagoreanExpectation": 0.56
   },
   {
     "rank": 2,
@@ -29,7 +30,8 @@
     "hr": 109,
     "sb": 51,
     "avg": 0.252,
-    "era": 3.44
+    "era": 3.44,
+    "pythagoreanExpectation": 0.578
   },
   {
     "rank": 3,
@@ -45,7 +47,8 @@
     "hr": 87,
     "sb": 51,
     "avg": 0.255,
-    "era": 3.81
+    "era": 3.81,
+    "pythagoreanExpectation": 0.544
   },
   {
     "rank": 4,
@@ -61,7 +64,8 @@
     "hr": 49,
     "sb": 41,
     "avg": 0.238,
-    "era": 3.31
+    "era": 3.31,
+    "pythagoreanExpectation": 0.419
   },
   {
     "rank": 5,
@@ -77,7 +81,8 @@
     "hr": 59,
     "sb": 41,
     "avg": 0.261,
-    "era": 3.87
+    "era": 3.87,
+    "pythagoreanExpectation": 0.422
   },
   {
     "rank": 6,
@@ -93,6 +98,7 @@
     "hr": 85,
     "sb": 18,
     "avg": 0.261,
-    "era": 4.48
+    "era": 4.48,
+    "pythagoreanExpectation": 0.422
   }
 ]

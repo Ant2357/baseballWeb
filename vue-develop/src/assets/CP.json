@@ -13,7 +13,8 @@
     "hr": 13,
     "sb": 5,
     "avg": 0.287,
-    "era": 3.76
+    "era": 3.76,
+    "pythagoreanExpectation": 0.653
   },
   {
     "rank": 2,
@@ -29,7 +30,8 @@
     "hr": 20,
     "sb": 25,
     "avg": 0.244,
-    "era": 3.52
+    "era": 3.52,
+    "pythagoreanExpectation": 0.538
   },
   {
     "rank": 3,
@@ -45,7 +47,8 @@
     "hr": 24,
     "sb": 5,
     "avg": 0.297,
-    "era": 4.9
+    "era": 4.9,
+    "pythagoreanExpectation": 0.489
   },
   {
     "rank": 4,
@@ -61,7 +64,8 @@
     "hr": 15,
     "sb": 8,
     "avg": 0.25,
-    "era": 3.55
+    "era": 3.55,
+    "pythagoreanExpectation": 0.443
   },
   {
     "rank": 5,
@@ -77,7 +81,8 @@
     "hr": 23,
     "sb": 14,
     "avg": 0.262,
-    "era": 4.03
+    "era": 4.03,
+    "pythagoreanExpectation": 0.552
   },
   {
     "rank": 6,
@@ -93,7 +98,8 @@
     "hr": 16,
     "sb": 7,
     "avg": 0.266,
-    "era": 3.96
+    "era": 3.96,
+    "pythagoreanExpectation": 0.526
   },
   {
     "rank": 7,
@@ -109,7 +115,8 @@
     "hr": 26,
     "sb": 4,
     "avg": 0.274,
-    "era": 4.73
+    "era": 4.73,
+    "pythagoreanExpectation": 0.483
   },
   {
     "rank": 8,
@@ -125,7 +132,8 @@
     "hr": 18,
     "sb": 18,
     "avg": 0.262,
-    "era": 4.45
+    "era": 4.45,
+    "pythagoreanExpectation": 0.512
   },
   {
     "rank": 9,
@@ -141,7 +149,8 @@
     "hr": 23,
     "sb": 9,
     "avg": 0.251,
-    "era": 3.84
+    "era": 3.84,
+    "pythagoreanExpectation": 0.507
   },
   {
     "rank": 10,
@@ -157,7 +166,8 @@
     "hr": 7,
     "sb": 10,
     "avg": 0.236,
-    "era": 3.42
+    "era": 3.42,
+    "pythagoreanExpectation": 0.432
   },
   {
     "rank": 11,
@@ -173,7 +183,8 @@
     "hr": 21,
     "sb": 11,
     "avg": 0.233,
-    "era": 3.04
+    "era": 3.04,
+    "pythagoreanExpectation": 0.596
   },
   {
     "rank": 12,
@@ -189,6 +200,7 @@
     "hr": 12,
     "sb": 13,
     "avg": 0.245,
-    "era": 5
+    "era": 5,
+    "pythagoreanExpectation": 0.273
   }
 ]
