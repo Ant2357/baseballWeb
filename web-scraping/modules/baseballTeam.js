@@ -13,6 +13,7 @@ module.exports = class BaseballTeam {
     this.draw = 0;
     this.pct = 0.0;
     this.gameDiff = 0.0;
+    this.remainingMatch = 0;
     this.run = 0;
     this.ra = 0;
     this.hr = 0;
@@ -31,12 +32,13 @@ module.exports = class BaseballTeam {
    * @param {string} leagueName
    */
   setTableInfo(tableDom, leagueName) {
-    // Webスクレイピング先の順位表にて、
-    // オープン戦、交流戦だけ残試合数表記がないという奇妙な仕様の為調整
-    const isSkip = leagueName === "CL" || leagueName === "PL" || leagueName == "CP";
+    const isRegularGame = leagueName === "CL" || leagueName === "PL" || leagueName === "CP";
 
-    const run = Number(tableDom.children().eq(8 + isSkip).text());
-    const ra = Number(tableDom.children().eq(9 + isSkip).text());
+    // Webスクレイピング先の順位表にて、
+    // オープン戦だけ残試合数表記がないという仕様の為調整
+    // ※ is公式戦 ? index + 1 : index;
+    const run = Number(tableDom.children().eq(8 + isRegularGame).text());
+    const ra = Number(tableDom.children().eq(9 + isRegularGame).text());
 
     const rank = tableDom.children().eq(0).text().replace(/[^0-9]/g, "");
     this.rank = Number(rank);
@@ -47,12 +49,13 @@ module.exports = class BaseballTeam {
     this.draw = Number(tableDom.children().eq(5).text());
     this.pct = Number(tableDom.children().eq(6).text());
     this.gameDiff = tableDom.children().eq(7).text();
+    this.remainingMatch = isRegularGame ? Number(tableDom.children().eq(8).text()) : 0;
     this.run = run;
     this.ra = ra;
-    this.hr = Number(tableDom.children().eq(10 + isSkip).text());
-    this.sb = Number(tableDom.children().eq(11 + isSkip).text());
-    this.avg = Number(tableDom.children().eq(12 + isSkip).text());
-    this.era = Number(tableDom.children().eq(13 + isSkip).text());
+    this.hr = Number(tableDom.children().eq(10 + isRegularGame).text());
+    this.sb = Number(tableDom.children().eq(11 + isRegularGame).text());
+    this.avg = Number(tableDom.children().eq(12 + isRegularGame).text());
+    this.era = Number(tableDom.children().eq(13 + isRegularGame).text());
 
     // Webスクレイピング先に無い独自値
     // ピタゴラス勝率

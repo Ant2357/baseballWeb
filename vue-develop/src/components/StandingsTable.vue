@@ -31,6 +31,7 @@
         <td>{{ team.pct }}</td>
         <td>{{ team.pythagoreanExpectation }}</td>
         <td>{{ team.gameDiff }}</td>
+        <td v-if="showRemainingMatch">{{ team.remainingMatch }}</td>
         <td>{{ team.run }}</td>
         <td>{{ team.ra }}</td>
         <td>{{ team.hr }}</td>
@@ -46,31 +47,41 @@
 export default {
   props: {
     data: Array,
+    showRemainingMatch: {
+      type: Boolean,
+      default: true
+    }
   },
   data: function () {
-    const labelInfo = {
-      "rank": "順位",
-      "name": "球団名",
-      "playGameCount": "試合数",
-      "win": "勝利数",
-      "lose": "敗北数",
-      "draw": "引き分け",
-      "pct": "勝率",
-      "pythagoreanExpectation": "ピタゴラス勝率",
-      "gameDiff": "勝差",
-      "run": "得点",
-      "ra": "失点",
-      "hr": "ホームラン",
-      "sb": "盗塁",
-      "avg": "打率",
-      "era": "防御率"
+    const labels = {
+      rank: "順位",
+      name: "球団名",
+      playGameCount: "試合数",
+      win: "勝利数",
+      lose: "敗北数",
+      draw: "引き分け",
+      pct: "勝率",
+      pythagoreanExpectation: "ピタゴラス勝率",
+      gameDiff: "勝差",
+      remainingMatch : "残試合",
+      run: "得点",
+      ra: "失点",
+      hr: "ホームラン",
+      sb: "盗塁",
+      avg: "打率",
+      era: "防御率"
     }
 
-    const columns = Object.keys(labelInfo);
+    //『残試合』の非表示
+    if (!this.showRemainingMatch) {
+      delete labels.remainingMatch;
+    }
+
+    const columns = Object.keys(labels);
     return {
       sortKey: "",
       columns: columns,
-      japaneseColumns: Object.values(labelInfo),
+      japaneseColumns: Object.values(labels),
       sortOrders: columns.reduce((acc, key) => Object.assign(acc, {[key]: 1}), {})
     }
   },
