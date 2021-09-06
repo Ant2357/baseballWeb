@@ -31,7 +31,7 @@ module.exports = class BaseballTeam {
    * @param {DOM} tableDom
    * @param {string} leagueName
    */
-  setTableInfo(tableDom, leagueName) {
+  setStandings(tableDom, leagueName) {
     const isRegularGame = leagueName === "CL" || leagueName === "PL" || leagueName === "CP";
 
     // Webスクレイピング先の順位表にて、

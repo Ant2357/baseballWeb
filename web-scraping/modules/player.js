@@ -60,7 +60,7 @@ module.exports = class Player {
    * 打者順位表Tableの値を取り出してメンバ変数に格納
    * @param {DOM} tableDom
    */
-  setTableInfoBatter(tableDom) {
+  setBatter(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
     this.nameAndTeamName = this.fixNameAndTeamNameText(tableDom.children().eq(1).text());
     this.avg = Number(tableDom.children().eq(2).text());
@@ -77,7 +77,7 @@ module.exports = class Player {
    * 投手順位表Tableの値を取り出してメンバ変数に格納
    * @param {DOM} tableDom
    */
-  setTableInfoPitcher(tableDom) {
+  setPitcher(tableDom) {
     this.rank = Number(tableDom.children().eq(0).text());
     this.nameAndTeamName = this.fixNameAndTeamNameText(tableDom.children().eq(1).text());
     this.era = Number(tableDom.children().eq(2).text());

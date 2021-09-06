@@ -1,5 +1,5 @@
 const fs = require("fs");
-const Npb = require("./npb");
+const npb = require("./npb");
 
 const jsonOutput = (url, data) => {
   fs.writeFile(url, JSON.stringify(data, null, "  "), err => {
@@ -10,7 +10,6 @@ const jsonOutput = (url, data) => {
 };
 
 const jsonPath = ".././vue-develop/src/assets";
-const npb = new Npb();
 try {
   jsonOutput([jsonPath, "/CL.json"].join(""), npb.standings("CL"));
   jsonOutput([jsonPath, "/PL.json"].join(""), npb.standings("PL"));
